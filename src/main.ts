@@ -11,7 +11,7 @@ async function bootstrap() {
   )
   )  //add this for using validation pipes
 
-  console.log("go to 3000")
+  console.log("go to just 3000")
   await app.listen(3000);
 }
 bootstrap();
