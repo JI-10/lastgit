@@ -54,7 +54,7 @@ export class AuthService {
                 return user;
             }
             else{
-                throw new ForbiddenException("Password didn't match")
+                throw new ForbiddenException("Password didn't match.")
             }
         }
         //compare passwords
